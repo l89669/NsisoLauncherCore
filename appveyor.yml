@@ -1,0 +1,6 @@
+version: 1.0.{build}
+build:
+  verbosity: minimal
+install:
+  - sudo dosomething
+  - nuget restore solution-name.sln
